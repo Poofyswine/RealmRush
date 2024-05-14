@@ -12,6 +12,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tile_Corner90
       objectReference: {fileID: 0}
+    - target: {fileID: 4907635745857288483, guid: 17f7b6bcffb871f4cae24900ae188ce2, type: 3}
+      propertyPath: isplaceable
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6213366892624338757, guid: 17f7b6bcffb871f4cae24900ae188ce2, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
