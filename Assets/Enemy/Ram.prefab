@@ -166,7 +166,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c9a2eb8e55423643bd16dd08492312d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Health: 2
+  Health: 1
   CurrentHealth: 0
   DamageTaken: 1
   KillReward: 50
@@ -182,3 +182,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4337df7cf1025874bbe77f0172166304, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  KillReward: 50
+  GoldPenality: 200

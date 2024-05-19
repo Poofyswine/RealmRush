@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3049131714819384361}
   - component: {fileID: -6824969888870818906}
-  - component: {fileID: 7927461347043243228}
+  - component: {fileID: 2865110681423647466}
   m_Layer: 0
   m_Name: Ballista
   m_TagString: Untagged
@@ -50,7 +50,7 @@ MonoBehaviour:
   weapon: {fileID: 3144582324300694500}
   range: 15
   projectileParticle: {fileID: 5935732051722937177}
---- !u!114 &7927461347043243228
+--- !u!114 &2865110681423647466
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -59,9 +59,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 3219458064393657486}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4ea6aa482f3dc0a4097cbf5667391585, type: 3}
+  m_Script: {fileID: 11500000, guid: 2fd24539aff426c4c8e43110087c603b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  TowerGoldCost: 150
 --- !u!1 &3955884525014937848
 GameObject:
   m_ObjectHideFlags: 0
