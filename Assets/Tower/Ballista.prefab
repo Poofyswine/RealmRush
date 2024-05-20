@@ -62,7 +62,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fd24539aff426c4c8e43110087c603b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TowerGoldCost: 150
+  TowerCost: 150
 --- !u!1 &3955884525014937848
 GameObject:
   m_ObjectHideFlags: 0
@@ -179,7 +179,7 @@ ParticleSystem:
     startLifetime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 5
+      scalar: 1.5
       minScalar: 5
       maxCurve:
         serializedVersion: 2

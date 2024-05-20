@@ -1,14 +1,19 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.EditorTools;
 using UnityEngine;
 
-
+[RequireComponent(typeof(Enemy))]
 public class EnemyHealth : MonoBehaviour
 {
-    [SerializeField] int Health = 100;
-    [SerializeField] int CurrentHealth = 0;
-    [SerializeField] int DamageTaken = 10;
+    [SerializeField] int Health = 1;
+
+    [Tooltip("Add ammount to max hitpoints when enemy dies")]
+    [SerializeField] int difficultyRamp = 1;
+    
     [SerializeField] int KillReward = 100;
+
+    int CurrentHealth = 0;
 
     Enemy enemyScript;
 
@@ -28,10 +33,11 @@ public class EnemyHealth : MonoBehaviour
 
     void ProcessHit()
     {
-        CurrentHealth -= DamageTaken;
+        CurrentHealth --;
         if (CurrentHealth <= 0)
         {
             enemyScript.RewardGold();
+            Health += difficultyRamp;
             gameObject.SetActive(false);
         }
     }

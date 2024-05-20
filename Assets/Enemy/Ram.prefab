@@ -167,9 +167,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Health: 1
-  CurrentHealth: 0
-  DamageTaken: 1
-  KillReward: 50
+  difficultyRamp: 1
+  KillReward: 35
 --- !u!114 &543576490314006285
 MonoBehaviour:
   m_ObjectHideFlags: 0
